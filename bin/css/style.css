@@ -1,0 +1,88 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.title{
+	-fx-font-size: 40px;
+	-fx-font-weight: bold;
+}
+
+.labelsLanguages{
+	-fx-font-size: 14px;
+	-fx-font-weight: bold;
+}
+
+
+/*** Cards.java ***/
+
+/* GENERAL */
+.cardCards{
+	-fx-border-color: black;
+	-fx-border-radius: 5px;
+}
+
+/* TOP */
+.topLabelCards{
+	-fx-font-size: 20px;
+	-fx-text-fill: #D9D9D9;
+}
+
+.topCards{
+	-fx-background-color: #404040;
+}
+
+.topHBoxCards{
+}
+
+
+/* BOTTOM */
+.bottomLabelLevelCards{
+	-fx-font-weight: bold;
+}
+
+
+/*** Edelsteenfiche.java ***/
+.edelsteenFicheEdelsteenFiche {
+	-fx-border-color: black;
+	-fx-border-radius: 100%;
+}
+
+.lblAmountEdelsteenFiche{
+	-fx-font-size: 20px;
+}
+
+/*** RoundUIPlayer ***/
+.labelCenterRoundUIPlayer{
+	-fx-font-size: 20px;
+	-fx-font-weight: bold;
+}
+
+
+/*** AddingPlayers.java ***/
+
+.labelGebruikersnaamAddingPlayers{
+	-fx-font-size: 20px;	
+}
+
+.labelGeboortejaarAddingPlayers{
+	-fx-font-size: 12px;
+}
+
+
+/*** StatusRonde.java ***/
+
+.labelTitelStatusRonde{
+	-fx-font-size: 60px;
+}
+
+.labelTitelLabelStatusRonde{
+	-fx-font-size: 20px;
+}
+
+.labelGebruikersnaamStatusRonde{
+	-fx-font-size: 26px;
+	-fx-font-weight: bold;
+}
+
+/*** BeurtSpeler.java ***/
+.labelHuidigeSpelerTitelPlayerBeurt{
+	-fx-font-size: 40px;
+}
