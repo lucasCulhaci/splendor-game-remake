@@ -13,7 +13,7 @@ Hiermee scoor je weerextra punten.
 Zodra iemand 15 punten heeft behaald gaat mag een ieder nog zijn beurt afmaken.
 Als iedereen evenveel beurten heeft gehad wint de speler met de meeste punten.
 
-[> Uitgebreide informatie over het project](https://github.com/HoGentTIProjecten1/splendor-group109/blob/main/info/brochure-extended.md)
+[> Uitgebreide informatie over het project](info/brochure-extended.md)
 
 ---
 
