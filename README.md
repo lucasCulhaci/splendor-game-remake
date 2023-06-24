@@ -23,4 +23,4 @@ Once someone has reached 15 points, everyone can finish their turn. When everyon
   
 
 
-[^1]: This team member was let go.
+[^1]: This team member was kicked out of the group.
