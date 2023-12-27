@@ -1,266 +1,257 @@
-# NOTE
+## **IMPORTANT**
+Do not save anything locally on your PC. Ensure that everything is accessible online at all times!
 
-Dit is een **samengevatte versie** van het `brochure2233.pdf` document. Dit document bevat alle punten die van belang zijn voor het effectief uitvoeren van het project. Voor de volledige uitleg over het project, gelieve het document `brochure2233.pdf` te lezen.
+The latest code is on GitHub, the latest analysis + design can be found on VP online, and share other documents via OneDrive for all team members and the accompanying lecturer.
 
-## **BELANGRIJK**
-Bewaar niets enkel lokaal op jouw pc. Zorg ervoor dat alles op elk moment online toegankelijk is!
+# CONTACT MOMENT
 
-De recentste code staat op github, de recentste analyse + ontwerp vinden we op VP online, andere documenten deel je via OneDrive voor alle teamleden én de begeleidende lector.
-
-# CONTACTMOMENT
-
-Elke **vrijdag voormiddag** van **08:15 tot 10:15** in lokaal **GSCHB.3.037**, **VERPLICHTE AANWEZIGHEID!**
+Every **Friday morning** from **08:15 to 10:15** in room **GSCHB.3.037**, **MANDATORY ATTENDANCE!**
 
 # BROCHURE
 
-**Vakken die je moet beheersen:**
+**Subjects you need to master:**
 * Databases
 * Software Analysis
 * Object-Oriented Software Development I (OOSD I)
 * Object-Oriented Software Development II (OOSD II)
 
-**Iedereen** in de projectgroep werkt mee aan elk onderdeel (analyse, ontwerpen, testen, programmeren, databank).
+**Everyone** in the project group contributes to each part (analysis, design, testing, programming, database).
 
-
-## Planning gedurende het semester
+## Semester Planning
 
 | Week | TODO |
 |------|------|
-| 1 | online infosessie bijwonen + inschrijven in een groep |
-| 2 | werkomgeving opzetten (uitleg documenten + instructiefilmpjes) |
-| 3 | starten met use case 1 |
-| 4-11 |  wekelijks contactmoment waarbij vooruitgang opgevolgd kan worden, vragen besproken kunnen worden |
-| 12 | indienen eindresultaat van het project |
-| 13 | technische eindpresentatie |
+| 1 | attend online information session + join a group |
+| 2 | set up working environment (explanation of documents + instructional videos) |
+| 3 | start with use case 1 |
+| 4-11 | weekly contact moment to track progress and discuss questions |
+| 12 | submit final project result |
+| 13 | technical final presentation |
 
-## Contactmomenten
+## Contact Moments
 
-**Afwezig op contactmoment?** > verwittigen van de begeleidende lector en groepsleden + officieel melden via **iBamaFlex** binnen de **48u**!
+**Absent at contact moment?** > notify the accompanying lecturer and group members + officially report via **iBamaFlex** within **48 hours**!
 
-**Afwezig op eindpresentatie?** > AFW eerste zit, moet ingehaald worden tijdens de feedback van de tweede zit.
+**Absent at final presentation?** > DEF first attempt, must be made up during the feedback of the second attempt.
 
-**2 of meer ongewettigde afwezigheden?** > AFW als examencijfeer het opleidingsonderdeel EN neem de afwezigheden mee naar je tweede zit.
+**2 or more unjustified absences?** > DEF as an exam grade for the course AND take the absences to your second attempt.
 
-# Opdracht
+# Assignment
 
-## Wat is Splendor?
+## What is Splendor?
 
-Splendor is een kaartspel voor 2 tot 4 spelers. Tijdens het spel verzamel je edelsteenfiches waar je weer ontwikkelingskaarten mee kunt kopen. Met deze kaarten kun je punten verdienen maar ze staan ook garant voor een bonus. Met deze bonus kun je volgende ontwikkelingskaarten die je wilt kopen weer goedkoper krijgen. Ondertussen probeer je combinaties te maken van de ontwikkelingskaarten waardoor je edellieden naar je toe kunt trekken. Hiermee scoor je weer extra punten. Zodra iemand 15 punten heeft behaald gaat mag een ieder nog zijn beurt afmaken. Als iedereen evenveel beurten heeft gehad wint de speler met de meeste punten.
+Splendor is a card game for 2 to 4 players. During the game, you collect gemstone tokens that you can use to buy development cards. With these cards, you can earn points, but they also guarantee a bonus. With this bonus, you can get the next development cards you want to buy at a lower cost. Meanwhile, you try to create combinations of development cards to attract nobles to you. This earns you extra points. Once someone has reached 15 points, each player gets one more turn. When everyone has had an equal number of turns, the player with the most points wins.
 
-[> Spelregels uitgelegd op YouTube](https://www.youtube.com/watch?v=rue8-jvbc9I&ab_channel=WatchItPlayed)
+[> Rules explained on YouTube](https://www.youtube.com/watch?v=rue8-jvbc9I&ab_channel=WatchItPlayed)
 
-## Hoe pak je het project aan?
+## How to Approach the Project?
 
-De opgave van het spel werd uitgeschreven in een aantal use cases. De use cases zijn het contract met je klant, hierin staat beschreven hoe het precies allemaal moet werken. Begin dus niet in het wilde weg te programmeren. Volg exact wat er beschreven staat in de use case. Doorloop alle fasen van een iteratie (analyse, ontwerp, testen, implementatie). Als de ene iteratie afgewerkt is kan je met de volgende starten.
+The assignment of the game was outlined in a number of use cases. The use cases are the contract with your customer, describing exactly how everything should work. So, don't start programming randomly. Follow exactly what is described in the use case. Go through all phases of an iteration (analysis, design, testing, implementation). Once one iteration is completed, you can start the next one.
 
-1. UC1 - Maak nieuw spel
-2. UC2 - Speel spel
-3. UC3 - Speel ronde
-4. UC4 - Speel beurt
+1. UC1 - Create a new game
+2. UC2 - Play the game
+3. UC3 - Play a round
+4. UC4 - Play a turn
 
-Maak per use case (bevat alle vereiste functionaliteit).
+Create per use case (contains all required functionality).
 
-> Klik op de referenties om de criterium ervan te bekijken
+> Click on the references to view their criteria.
 
-1. Maak per use case:
+1. Create per use case:
 
-    * [Ontwerp van de database](#criterium-5-databank)
-    * [Analyse](#criterium-1-analyseren)
-    * [Ontwerp DCD](#criterium-2-ontwerpen)
-    * [Console Applicatie](#criterium-4-programmeren)
+    * [Database design](#criterium-5-databank)
+    * [Analysis](#criterium-1-analyseren)
+    * [Design DCD](#criterium-2-ontwerpen)
+    * [Console Application](#criterium-4-programmeren)
 
-2. [Ontwikkel een Grafische User Interface](#criterium-3-volledigheid-product-qua-niet-functionele-requirements)
+2. [Develop a Graphical User Interface](#criterium-3-volledigheid-product-qua-niet-functionele-requirements)
 
-3. [Applicatie is meertalig](#criterium-3-volledigheid-product-qua-niet-functionele-requirements)
+3. [Application is multilingual](#criterium-3-volledigheid-product-qua-niet-functionele-requirements)
 
-4. Per use case wordt een **werkdossier** aangevuld:
-    * [Ontwerp van de database](#criterium-5-databank)
-    * [Analyse](#criterium-1-analyseren)
-    * [Ontwerp DCD](#criterium-2-ontwerpen)
+4. For each use case, a **working document** is completed:
+    * [Database design](#criterium-5-databank)
+    * [Analysis](#criterium-1-analyseren)
+    * [Design DCD](#criterium-2-ontwerpen)
 
-5. [Logboek](#logboek) bijhouden.
+5. Keep a [logbook](#logboek).
 
-    [> Logboek openen](https://hogent-my.sharepoint.com/:w:/r/personal/liesbeth_lewyllie_hogent_be/_layouts/15/Doc.aspx?sourcedoc=%7B332FAE97-C205-4E55-975D-1E1DF1F000CA%7D&file=opvolgingsformulier.docx&action=default&mobileredirect=true)
+    [> Open logbook](https://hogent-my.sharepoint.com/:w:/r/personal/liesbeth_lewyllie_hogent_be/_layouts/15/Doc.aspx?sourcedoc=%7B332FAE97-C205-4E55-975D-1E1DF1F000CA%7D&file=opvolgingsformulier.docx&action=default&mobileredirect=true)
 
-6. [Opvolgingsformulier](#opvolgingsformulier) bijhouden.
+6. Maintain an [follow-up form](#opvolgingsformulier).
 
-    [> Opvolgingsformulier openen](https://hogent-my.sharepoint.com/:w:/r/personal/liesbeth_lewyllie_hogent_be/_layouts/15/Doc.aspx?sourcedoc=%7B332FAE97-C205-4E55-975D-1E1DF1F000CA%7D&file=opvolgingsformulier.docx&action=default&mobileredirect=true)
+    [> Open follow-up form](https://hogent-my.sharepoint.com/:w:/r/personal/liesbeth_lewyllie_hogent_be/_layouts/15/Doc.aspx?sourcedoc=%7B332FAE97-C205-4E55-975D-1E1DF1F000CA%7D&file=opvolgingsformulier.docx&action=default&mobileredirect=true)
 
-[> VOLLEDIGE PRODUCTONTWIKKELING OPENEN](#productontwikkeling)
+[> OPEN FULL PRODUCT DEVELOPMENT](#productontwikkeling)
 
-# Puntenverdeling
+# Point Distribution
 
-70% > Product + Productontwikkeling  
-30% > Proces (groepswerk, attitudes)
+70% > Product + Product Development  
+30% > Process (teamwork, attitudes)
 
-## Product (eindresultaat)
+## Product (final result)
 
-### Criterium 1: Volledigheid product qua vorm
+### Criterion 1: Completeness of product in terms of form
 
-1. einddossier met
-    * inhoudstafel
-    * genummerde blz.
-    * **per UC analyse, ontwerp, databank**
-    * reflectie ivm groepswerk van elk groepslid
-2. Eclipse project met code en VP UML-diagrammen
-3. gegenereerde javadoc API van het domein
+1. Final dossier with
+    * table of contents
+    * numbered pages
+    * **per UC analysis, design, database**
+    * reflection on group work from each group member
+2. Eclipse project with code and VP UML diagrams
+3. generated javadoc API of the domain
 
-### Criterium 2: Volledigheid product qua functionaliteit
+### Criterion 2: Completeness of product in terms of functionality
 
-Alle functionaliteiten zijn beschreven in de use cases.
+All functionalities are described in the use cases.
 
-### Criterium 3: Volledigheid product qua niet functionele requirements
+### Criterion 3: Completeness of product in terms of non-functional requirements
 
-* user interface (console / grafisch)
-* **meertalige applicatie**
+* user interface (console / graphical)
+* **multilingual application**
 
-## Productontwikkeling
+## Product Development
 
-### Criterium 1: Analyseren
+### Criterion 1: Analyzing
 
-**Regels uit Sofware Analysis toepassen!**
+**Apply rules from Software Analysis!**
 
 * activity diagram
-* domeinmodel
-* SSD, bijhorende OC’s
+* domain model
+* SSD, accompanying OCs
 
-### Criterium 2: Ontwerpen
+### Criterion 2: Designing
 
-**Regels uit OOSD I en de opgestelde analyse toepassen!**
+**Apply rules from OOSD I and the established analysis!**
 
-Opstellen van het DCD:
-* DCD sluit aan op SSD’s
-* DCD bevat wat beschreven werd in OC
+Prepare the DCD:
+* DCD aligns with SSDs
+* DCD contains what was described in OC
 
-### Criterium 3: Testen
+### Criterion 3: Testing
 
-Elke "pure" domeinklasse, d.w.z. NIET DomeinController en repositoryklassen, wordt via JUNIT testen voldoende getest.
+Every "pure" domain class, i.e., NOT DomainController and repository classes, is adequately tested through JUNIT tests.
 
-### Criterium 4: Programmeren
+### Criterion 4: Programming
 
-**Regels uit OOSD I, OOSD II en de opgestelde ontwerk toepassen!**
+**Apply rules from OOSD I, OOSD II, and the established design!**
 
-* respect voor OO
-* respect voor de 3 lagen
-* correct documenteren doorheen volledige proces
-* robuuste applicatie
-* in de code vind je de juiste methodes vanop het DCD terug
+* adhere to OO principles
+* adhere to the 3 layers
+* document correctly throughout the entire process
+* robust application
+* find the correct methods from the DCD in the code
 
-### Criterium 5: Databank
+### Criterion 5: Database
 
-**Regels uit Databases toepassen!**
+**Apply rules from Databases!**
 
-* conceptueel model ERD
-* overeenkomstig relationeel model
-* script met de DDL-instructies voor de implementatie in relationele databank (MySQL)
+* conceptual ERD model
+* corresponding relational model
+* script with DDL instructions for implementation in a relational database (MySQL)
 
-Je moet data kunnen lezen & schrijven!
+You must be able to read & write data!
 
-## Proces
+# Process
 
-### Criterium 1: Registreren
+## Criterion 1: Registration
 
-Logboek en opvolgingsformulier aanvullen.
+Complete the logbook and follow-up form.
 
-### Criterium 2: Plannen
+## Criterion 2: Planning
 
-Wekelijkse planning opstellen, werken volgens die planning en controleren of je op schema zit.
+Create a weekly plan, work according to that plan, and check if you are on schedule.
 
-### Criterium 3: Teamwork
+## Criterion 3: Teamwork
 
-Goed samenwerken en dit ook stimuleren.
+Collaborate effectively and encourage teamwork.
 
-### Criterium 4: Voorbereiding wekelijks contactmoment
+## Criterion 4: Preparation for Weekly Contact Moment
 
-Voorbereiding betekent:
-* Voorleggen en op de hoogte zijn van het werk van de voorbije week
-* Vragen opsommen en meebrengen
+Preparation means:
+- Presenting and being aware of the work from the past week
+- Listing and bringing questions
 
-### Criterium 5: Omgaan met feedback / adviezen volgen
+## Criterion 5: Dealing with Feedback / Following Advice
 
-Dit gaat om zowel inhoudelijke feedback als procesmatige feedback.
+This includes both substantive and procedural feedback.
 
-### Criterium 6: Stiptheid
+## Criterion 6: Punctuality
 
-Wees elke afspraak (online of op school) stipt op tijd.
+Be punctual for every appointment (online or at school).
 
-> Per criterium worden 5 levels beschreven (zie extra’s). Twee maal (halverwege het semester en op het eind) zal je voor jezelf moeten bepalen op welk level je je bevindt per criterium en dat ook wat duiden. Zelfkennis is een belangrijke schakel in het succesvol werken in team.
+> Each criterion is described at 5 levels (see extras). Twice (midway through the semester and at the end), you will have to determine for yourself at which level you are for each criterion and also indicate that. Self-awareness is an important link in successful teamwork.
 
-# Eindproducten
+# Final Products
 
-Op het einde van de projectwerking geef je een verzorgd dossier af met daarin:
-* Voorblad (zie Chamilo)
-* ERD, relationeel model, script met DDL-instructies (per use case indien van toepassing)
-* Analyse en ontwerp (domeinmodel, activiteitendiagram, SSD, OC en DCD) per use case (of
-scenario indien van toepassing);
-* 1 A4 blad tekst per groepslid met je ervaringen ivm groepswerk: wat heb je geleerd, wat waren
-de moeilijkheden, wat zijn jouw sterke punten, …
+At the end of the project, you will submit a well-prepared dossier containing:
+- Cover page (see Chamilo)
+- ERD, relational model, script with DDL instructions (per use case if applicable)
+- Analysis and design (domain model, activity diagram, SSD, OC, and DCD) per use case (or scenario if applicable);
+- 1 A4 page of text per group member with your experiences regarding group work: what have you learned, what were the difficulties, what are your strengths, ...
 
-Via de opdrachtenmodule van Chamilo dien je je project in:  
-Maak 1 zip-bestand met daarin:
+Submit your project via the Chamilo assignments module:  
+Create 1 zip file with:
 
-* Verzorgd dossier
-* Eclipse project met de javacode
-* De gegenereerde Java documentatie van de code (Javadoc)
-* De volledige analyse en ontwerp (vpp-bestand van Visual Paradigm)
-* Script met DDL-instructies van de MySQL database
-* Exportbestand van de MySQL database (alle data)
+- Well-prepared dossier
+- Eclipse project with the Java code
+- The generated Java documentation of the code (Javadoc)
+- The complete analysis and design (vpp file from Visual Paradigm)
+- Script with DDL instructions of the MySQL database
+- Export file of the MySQL database (all data)
 
-**Dit afgewerkte dossier laad je op via de opdrachtenmodule in Chamilo vóór maandag 15 mei 23u59**
+**Submit this completed dossier via the assignments module in Chamilo before Monday, May 15, 23:59**
 
-## Opname
+## Recording
 
-**Je maakt via Teams (opname van een vergadering met het volledige team) een filmpje waarin je jullie eindresultaat demonstreert.**  
-Het eindresultaat is een applicatie met een grafische user
-interface waarbij je alle gevraagde functionaliteiten kan tonen.   
-Ook dit filmpje is groepswerk, elk teamlid komt aan het woord. 
-Dit filmpje is via teams beschikbaar ten laatste maandag 15 mei 23u59.   
-Dit filmpje is geen montage, er moet niets geknipt worden, het is dus de opname van een
-live demo.
+**Via Teams (recording of a meeting with the entire team), create a video demonstrating your final result.**  
+The final result is an application with a graphical user interface showcasing all requested functionalities.  
+This video is also a group effort, with each team member speaking.  
+This video is available via Teams no later than Monday, May 15, 23:59.  
+This video is not edited; nothing needs to be cut. It is the recording of a live demo.
 
-## Digitaal Dossier
+## Digital Dossier
 
-Tijdens het semester bouw je ook een digitaal dossier op. Elke groep krijgt zijn eigen documenten folder op OneDrive. Deze folder is enkel toegankelijk voor de groepsleden én alle begeleidende
-lectoren
+During the semester, you also build a digital dossier. Each group gets its own documents folder on OneDrive. This folder is only accessible to group members and all accompanying lecturers.
 
-## Logboek
-    
-Telkens een groepslid aan het project werkt noteert die de details van het gedane werk (omschrijving en tijdsregistratie) meteen ook in het logboek.
+## Logbook
 
-Ook het opvolgingsformulier krijgt hier een plaats.
+Whenever a group member works on the project, they note the details of the work (description and time registration) in the logbook.
 
-[> Logboek openen](https://hogent-my.sharepoint.com/:w:/r/personal/liesbeth_lewyllie_hogent_be/_layouts/15/Doc.aspx?sourcedoc=%7B332FAE97-C205-4E55-975D-1E1DF1F000CA%7D&file=opvolgingsformulier.docx&action=default&mobileredirect=true)
+The follow-up form is also included here.
 
-## Opvolgingsformulier
+[> Open logbook](https://hogent-my.sharepoint.com/:w:/r/personal/liesbeth_lewyllie_hogent_be/_layouts/15/Doc.aspx?sourcedoc=%7B332FAE97-C205-4E55-975D-1E1DF1F000CA%7D&file=opvolgingsformulier.docx&action=default&mobileredirect=true)
 
-Als voorbereiding op de wekelijkse afspraak met je begeleidende lector vul je het opvolgingsformulier in (wat is er gebeurd de voorbije week en wat zullen we doen de komende week, groepsafspraken, mogelijke vragen ….)
+## Follow-up Form
 
-### DONE 
+As preparation for the weekly meeting with your supervising lecturer, fill in the follow-up form (what happened last week and what will we do next week, group agreements, possible questions…).
 
-**Dit vul je aan vóór de afspraak!** Wat heb je de voorbije week gedaan?
+### DONE
+
+**Complete this before the meeting!** What have you done in the past week?
 
 ### TODO:
-**Dit vul je aan vóór de afspraak!** Wat ben je van plan te doen de komende week?
 
-### Hoe verloopt het groepswerk?
-Noteer hier alle probleempjes, vragen, sterke punten, …
+**Complete this before the meeting!** What do you plan to do next week?
 
-[> Opvolgingsformulier openen](https://hogent-my.sharepoint.com/:w:/r/personal/liesbeth_lewyllie_hogent_be/_layouts/15/Doc.aspx?sourcedoc=%7B332FAE97-C205-4E55-975D-1E1DF1F000CA%7D&file=opvolgingsformulier.docx&action=default&mobileredirect=true)
+### How is the group work progressing?
+Note all issues, questions, strengths, ...
 
-# Eindpresentatie: voorbeeldvragen
+[> Open follow-up form](https://hogent-my.sharepoint.com/:w:/r/personal/liesbeth_lewyllie_hogent_be/_layouts/15/Doc.aspx?sourcedoc=%7B332FAE97-C205-4E55-975D-1E1DF1F000CA%7D&file=opvolgingsformulier.docx&action=default&mobileredirect=true)
 
-1. Hoe werken resourcebundels? Wat is het nut ervan? Toon in de code hoe je ermee werkt. Leg uit.
-2. Wat is het nut/voordeel van de javadoc-comment? Toon aan.
-3. Toon aan dat je applicatie voor UC…. een robuuste applicatie is.
-4. Wat is de taak/zijn de verantwoordelijkheden van een DomeinController? Staaf telkens met een voorbeeld in jullie project.
-5. Wat zijn de verantwoordelijkheden van een repositoryklasse? Staaf telkens met een voorbeeld in jullie project.
-6. Wat doet een mapperklasse? Bespreek de code van een methode in zo’n mapperklasse.
-7. Illustreer hoe en tot welke producten je tijdens de analyse van UC x bent gekomen (domeinmodel/SSD/OC/AD).
-8. Illustreer hoe doing en knowing verantwoordelijkheden gescheiden worden gehouden in het project.
-9. Illustreer op welke manier je GRASP patronen (controlller expert/creator) hebt toegepast bij het maken van het ontwerp.
-10. Leg bondig het 3-lagen model uit en illustreer de toepassing ervan adhv een voorbeeld uit je code.
-11. Het ontwerp van de grafische laag is heel programmeertaalafhankelijk. Leg uit hoe je deze laag opgebouwd hebt in jullie project.
-12. Eventafhandeling en/of wisselen van scherm: toon hiervan een voorbeeld uit jullie project en leg de code uit.
-13. Illustreer hoe je jouw applicatie getest heb aan de hand van analyse schema’s voor UCx.
-14. Bespreek hoe en waarom jouw domeinmodel, EERD en DCD verschillend zijn.
-15. Toon aan en leg uit hoe je zeker bent dat domeinklasse X goed werkt.
+# Final Presentation: Example Questions
+
+1. How do resource bundles work? What is their purpose? Show in the code how you work with them. Explain.
+2. What is the purpose/advantage of the Javadoc comment? Demonstrate.
+3. Show that your application for UC... is a robust application.
+4. What is the task/responsibility of a DomainController? Support each time with an example from your project.
+5. What are the responsibilities of a repository class? Support each time with an example from your project.
+6. What does a mapper class do? Discuss the code of a method in such a mapper class.
+7. Illustrate how and to which products you came during the analysis of UC x (domain model/SSD/OC/AD).
+8. Illustrate how doing and knowing responsibilities are kept separate in the project.
+9. Illustrate how you applied GRASP patterns (controller expert/creator) when creating the design.
+10. Explain briefly the 3-layer model and illustrate its application with an example from your code.
+11. The design of the graphical layer is highly dependent on the programming language. Explain how you built this layer in your project.
+12. Event handling and/or screen switching: show an example from your project and explain the code.
+13. Illustrate how you tested your application using analysis schemas for UCx.
+14. Discuss how and why your domain model, EERD, and DCD are different.
+15. Demonstrate and explain how you are sure that domain class X works well.
