@@ -8,7 +8,7 @@ During the game you collect gemstone tokens that you can use to buy development 
 
 Once someone has reached 15 points, everyone can finish their turn. When everyone has had an equal number of turns, the player with the most points wins.
 
-[> (DUTCH) Extensive information about the project](info/brochure-extended.md)
+[> Extensive information about the project](info/brochure-extended.md)
 
 ---
 
