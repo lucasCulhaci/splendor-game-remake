@@ -16,9 +16,6 @@ Once someone has reached 15 points, everyone can finish their turn. When everyon
 * [Lucas Culhaci](https://github.com/CulhaciLucas)
 * [Nehad Halabieh](https://github.com/NehadHalabieh77)
 * [Rune Wante](https://github.com/RuneWante)
-* [Fourth team member]() [^1]
 
 ## Mentor / Accompanist / Supervisor
 * [Liesbeth Lewyllie](https://github.com/liesbethLewyllie)
-  
-[^1]: This team member was expelled from the group.
